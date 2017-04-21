@@ -12,10 +12,10 @@ public class DbAccess {
     private String driver, connectURL, id, pass;
 
     public DbAccess() {
-        connectURL = "jdbc:postgresql://133.130.100.142:5432/linkdb";
+        connectURL = "jdbc:postgresql://***.***.***.***:5432/linkdb";
         driver = "org.postgresql.Driver";
-        id = "linkroad";
-        pass = "link2435";
+        id = "******";
+        pass = "******";
     }
 
     public synchronized void ConnectOpen() throws Exception {
